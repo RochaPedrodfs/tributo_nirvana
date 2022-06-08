@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: dimgrey;
+    
+   
+    
+}
+header{
+    margin: 0px;
+    width: 100vw;
+    height: 500px;
+    background-image: url(assets/tributo-nirvana-in-utero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+      
+   h1, h2 {
+       flex: 1;
+       color: rgb(240, 28, 99);
+   }
+   h1{
+       margin-bottom: 0;
+       margin-left: 120px;
+       padding-top: 50px;
+       text-shadow: 5px 5px 1px gray;
+   }
+a{
+    text-decoration: none;
+}
+.imagem{
+    margin: 0;
+    background-image: url(assets/images.jpeg);
+    height: 100px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paragrafo{
+    width: 90vw;
+    font-size: 30px;
+    font-style: oblique;
+    line-height: 40px;
+    padding: 0 auto;
+    margin-left: 50px;
+}
+.um, .dois, .tres, .quatro{
+width: 24vw;
+margin: 0 auto;
+}
+.albuns{
+    margin-left: 6px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    border: 1px solid blueviolet;
+    padding: 5px;
+    margin: 10px 5px;
+    background-color: cyan;
+}
